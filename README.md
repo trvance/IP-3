@@ -1,0 +1,1 @@
+A small project to create a list of consecutive prime numbers and writes them to a file.
