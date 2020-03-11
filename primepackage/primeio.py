@@ -4,8 +4,8 @@ from primemodule import *
 
 def write_primes(prime_list, file_name):
     
-    """function to create a file of your choice and inserts the list 
-        created from getNPrime function in the primemodule.py module
+    """function to create a file of your choice name (file_name) and inserts the list 
+        created from getNPrime function (prime_list) in the primemodule.py module
     """
     
     with open(file_name, "w") as prime_file:
