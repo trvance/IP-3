@@ -1,14 +1,16 @@
 #!/usr/bin/python
 
-"""A Python program generating a list of prime numbers 
+'''A Python program generating a list of prime numbers 
    and output them into csv file
-"""
+
+'''
 
 from primepackage import *
 
 def main ():
-    """Generate 100 prime numbers and output it into output.csv file
-    """
+    '''Generate 100 prime numbers and output it into output.csv file
+    
+    '''
     primes = getNPrime(100)
     write_primes(primes, "output.csv")
     l = read_primes("output.csv")
